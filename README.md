@@ -76,8 +76,8 @@
 
 1. Далее создаю отдельный Service приложения из Задания 1, с возможностью доступа снаружи кластера к nginx, используя тип NodePort:
 
-- ![scrin](https://github.com//Evgenii-379/1.4-1.4.md/blob/main/Снимок%20экрана%202025-03-15%20211028.png)
-- ![scrin](https://github.com//Evgenii-379/1.4-1.4.md/blob/main/Снимок%20экрана%202025-03-15%20211047.png)
+- ![scrin](https://github.com/Evgenii-379/1.4-1.4.md/blob/main/Снимок%20экрана%202025-03-15%20211028.png)
+- ![scrin](https://github.com/Evgenii-379/1.4-1.4.md/blob/main/Снимок%20экрана%202025-03-15%20211047.png)
 
 2.Демонстрация доступа с помощью браузера и `curl` с локального компьютера:
 
@@ -85,7 +85,7 @@
 - ![scrin](https://github.com/Evgenii-379/1.4-1.4.md/blob/main/Снимок%20экрана%202025-03-15%20211924.png)
 - ![scrin](https://github.com/Evgenii-379/1.4-1.4.md/blob/main/Снимок%20экрана%202025-03-15%20211433.png)
 
-- ССылки манифестов:
+- Сcылки манифестов:
 
 [deployment.yaml](https://github.com/Evgenii-379/1.4-1.4.md/blob/main/config_yml/deployment.yaml)
 
