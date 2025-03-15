@@ -54,7 +54,7 @@
 
 1. В Deployment, с предыдущего д/задания изменил колчество реплик с 1-го на 3. Создание Deployment с 3-мя репликами:
 
-- ![scrin](https://github.com/vgenii-379/1.4-1.4.md/blob/main/Снимок%20экрана%202025-03-15%20143030.png)
+- ![scrin](https://github.com/Evgenii-379/1.4-1.4.md/blob/main/Снимок%20экрана%202025-03-15%20143030.png)
 - ![scrin](https://github.com/Evgenii-379/1.4-1.4.md/blob/main/Снимок%20экрана%202025-03-15%20143103.png)
 
 2. Создание Service, который обеспечит доступ внутри кластера до контейнеров приложения:
@@ -76,7 +76,7 @@
 
 1. Далее создаю отдельный Service приложения из Задания 1, с возможностью доступа снаружи кластера к nginx, используя тип NodePort:
 
-- ![scrin](https://github.com/Evgenii-379/1.4-1.4.md/blob/main/Снимок%20экрана%202025-03-15%20211028.png)
+- ![scrin](https://github.com//Evgenii-379/1.4-1.4.md/blob/main/Снимок%20экрана%202025-03-15%20211028.png)
 - ![scrin](https://github.com//Evgenii-379/1.4-1.4.md/blob/main/Снимок%20экрана%202025-03-15%20211047.png)
 
 2.Демонстрация доступа с помощью браузера и `curl` с локального компьютера:
@@ -88,8 +88,11 @@
 - ССылки манифестов:
 
 [deployment.yaml](https://github.com/Evgenii-379/1.4-1.4.md/blob/main/config_yml/deployment.yaml)
+
 [nodeport-service.yaml](https://github.com/Evgenii-379/1.4-1.4.md/blob/main/config_yml/nodeport-service.yaml)
+
 [service-net.yaml](https://github.com/Evgenii-379/1.4-1.4.md/blob/main/config_yml/service-net.yaml)
+
 [test-pod.yaml](https://github.com/Evgenii-379/1.4-1.4.md/blob/main/config_yml/test-pod.yaml)
 
 
